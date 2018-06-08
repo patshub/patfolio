@@ -3,7 +3,7 @@
 <head>
    <meta name="description" content="This is the form demo of the talk Talking and listening to web pages" />
    <meta charset="utf-8">
-   <title>Template</title>
+   <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

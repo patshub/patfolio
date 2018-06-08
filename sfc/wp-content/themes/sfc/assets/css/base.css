@@ -68,7 +68,7 @@ img{
 
 section{
   width: 100%;
-  margin: auto auto 45px auto;
+  margin: auto auto 60px auto;
   display: block;
   clear: both;
 
@@ -133,12 +133,12 @@ section{
 .col-6:nth-of-type(2n-1) > .col,
 .col-8:nth-of-type(1) > .col,
 .col-9:nth-of-type(1) > .col{
-  padding:0 3.5% 0 0;
+  padding:0 4.5% 0 0;
 }
 .col-6:nth-of-type(2n) > .col,
 .col-8:nth-of-type(2) > .col,
 .col-9:nth-of-type(2) > .col{
-  padding:0 0 0 3.5%;
+  padding:0 0 0 4.5%;
 }
 
 /************** NAVIGATION **************/
@@ -267,6 +267,11 @@ a.btn.white:active,a.btn.white:visited{
   background: #fff;
   border: 1.5px solid #fff;
   color: #0095DA;
+}
+.btn.blue-border{
+  background: #fff;
+  border: 1.5px solid #0095da;
+  color: #0095da!important;
 }
 .btn.mid{
   margin: auto;

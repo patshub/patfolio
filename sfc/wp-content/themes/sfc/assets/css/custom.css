@@ -7,6 +7,12 @@
 
   height: 250px;
 }
+.img.one{ background-image: url('../images/placeholders/1.png')!important; }
+.img.two{ background-image: url('../images/placeholders/2.png')!important; }
+.img.three{ background-image: url('../images/placeholders/3.png')!important; }
+.img.four{ background-image: url('../images/placeholders/4.png')!important; }
+.img.five{ background-image: url('../images/placeholders/5.png')!important; }
+
 .img.bw{
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -71,7 +77,7 @@ h3.section-title{
 .bg,
 .standalone-img{
   background-image: url('../images/bg-main.png');
-  padding: 45px 0;
+  padding: 60px 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -341,7 +347,7 @@ span.label-southbay{
 
 /* Featured Triplets */
 #featured-triplets{
-  padding:45px 0;
+  padding:60px 0;
   margin: 0;
 }
 /* Featured Contents */
@@ -350,7 +356,7 @@ span.label-southbay{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 45px 0;
+  padding: 60px 0;
   color: #fff;
   margin:0;
 }
@@ -377,7 +383,8 @@ span.label-southbay{
   background-size: cover;
   background-position: 50% 0%;
   background-repeat: no-repeat;
-  padding: 200px 0 45px 0;
+  padding: 200px 0 60px 0;
+  margin-bottom: 0;
   color: #fff;
   text-align: center;
 }
@@ -402,8 +409,10 @@ span.label-southbay{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 60px 0 60px 0;
+  padding: 45px 0;
+  margin:45px 0;
   text-align: center;
+
 }
 #ancop-home .col-6{
   text-align: center;
@@ -830,7 +839,7 @@ span.label-southbay{
 /* Footer */
 footer{
   background-color: #0095da;
-  padding: 45px 0;
+  padding: 60px 0;
   position: relative;
   color: #fff;
 }
@@ -1295,7 +1304,7 @@ footer .bibleVerse a{
 
 /* Word Art */
 #word-message{
-  padding: 45px 0;
+  padding: 60px 0;
   margin: 0;
 }
 #word-message .msg{

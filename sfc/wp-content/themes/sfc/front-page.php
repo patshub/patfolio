@@ -22,31 +22,31 @@
       <div class="columns col-max">
         <div class="col-4">
           <div class="col">
-            <a href="/sfc/about-us"><div class="img"></div></a>
+            <a href="/sfc/about-us"><div class="img two"></div></a>
             <div class="info">
               <h3>About SFC</h3>
               <p>It is faith in action! Kids, youth, adults, and seniors join together to walk for the poor and rally the public to support the cause.</p>
-              <a href="/sfc/about-us" class="btn">Learn More</a>
+              <a href="/sfc/about-us" class="btn blue-border">Learn More</a>
             </div>
           </div>
         </div>
         <div class="col-4">
           <div class="col">
-            <a href="/sfc/clp"><div class="img"></div></a>
+            <a href="/sfc/clp"><div class="img three"></div></a>
             <div class="info">
               <h3>How to Join</h3>
               <p>It is faith in action! Kids, youth, adults, and seniors join together to walk for the poor and rally the public to support the cause.</p>
-              <a href="/sfc/clp" class="btn">Learn More</a>
+              <a href="/sfc/clp" class="btn blue-border">Learn More</a>
             </div>
           </div>
         </div>
         <div class="col-4">
           <div class="col">
-            <a href="/sfc/"><div class="img"></div></a>
+            <a href="/sfc/"><div class="img four"></div></a>
             <div class="info">
               <h3>What to Expect</h3>
               <p>It is faith in action! Kids, youth, adults, and seniors join together to walk for the poor and rally the public to support the cause.</p>
-              <a href="/sfc/" class="btn">Learn More</a>
+              <a href="/sfc/" class="btn blue-border">Learn More</a>
             </div>
           </div>
         </div>
@@ -63,25 +63,27 @@
           <p>To this end, CFC SFC has on-going formation programs, household meetings, recollections, retreats, teachings, forums, and other activities designed to deepen your relationship with the Lord and with others in the community.</p>
       </div>
       <div class="columns col-max">
-        <div class="col-3">
+        <div class="col-6">
           <div class="col">
             <div class="img" style="background-image:url('<?php bloginfo('template_url'); ?>/assets/images/repentance.jpg');"></div>
             <div class="info">
               <h4>Households</h4>
               <p>Become part of an environment for the support of the Christian life of singles and to provide a means of encouraging and hastening growth in the Christian life.</p>
             </div>
+            <br/><br/>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-6">
           <div class="col">
             <div class="img" style="background-image:url('<?php bloginfo('template_url'); ?>/assets/images/teaching.jpg');"></div>
             <div class="info">
               <h4>Teaching Nights</h4>
               <p>Be nourished by God's Word as you learn more about His undying love for us and ways we can continue to grow in our faith in Him.</p>
             </div>
+            <br/><br/>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-6">
           <div class="col">
             <div class="img"></div>
             <div class="info">
@@ -90,7 +92,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-6">
           <div class="col">
             <div class="img" style="background-image:url('<?php bloginfo('template_url'); ?>/assets/images/conference.jpg');"></div>
             <div class="info">
