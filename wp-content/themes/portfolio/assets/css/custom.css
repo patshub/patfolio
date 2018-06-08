@@ -178,9 +178,9 @@ h1.page-title{
 header{
   padding: 45px 0 55px 0;
   text-align: center;
-  background-color: #f7f7f7;
+  /* background-color: #00334B; */
   margin-bottom: 50px;
-  /* background-image: url('../images/bg-header-blue.png'); */
+  background-image: url('../images/bg-header-blue.png');
   background-position: 50% 100%;
   background-size: cover;
   transition-duration: 0.25s;
@@ -189,8 +189,12 @@ header{
 header:hover{
   transition-duration: 0.25s;
 }
+header h1{
+  font-size: 3em;
+  color: #fff;
+}
 header a{
-  color: #000!important;
+  color: #fff!important;
   font-weight: 400;
 }
 p.contact-info{
@@ -203,14 +207,14 @@ span.site-subtitle{
   font-size: 1.25em;
   font-weight: 500;
   margin: 0 0 15px 0;
-  color: #000;
+  color: #fff;
 }
 .dot{
   font-weight: 100;
   margin: 0 10px;
   font-size: 1.25em;
   vertical-align: bottom;
-  color: #000;
+  color: #fff;
   opacity: .75;
 }
 
@@ -253,6 +257,7 @@ span.site-subtitle{
   transition-duration: 0.25s;
 }
 .project-item{
+  margin-bottom: 20px;
   text-align: center;
 }
 .project-item .col{
@@ -292,11 +297,15 @@ span.site-subtitle{
   margin:0 auto 25px auto;
 }
 #project .page-section h2{
-  font-size: 3.5em;
+  font-family: 'Montserrat', 'Open Sans';
+  text-transform: uppercase;
+
+  font-size: 2em;
   text-align: center;
 
-  font-weight: 400;
-  color: #0095da;
+  font-weight: 300;
+  color: #000;
+  opacity: .25;
 }
 #project .centerize{
   text-align: center;
@@ -319,7 +328,7 @@ span.site-subtitle{
   margin:3% 0;
   display: block;
   /* border: #f7f7f7 solid 2px; */
-  box-shadow: 1px 1px 15px lightgrey;
+  box-shadow: 1px 1px 7px lightgrey;
   padding: 20px;
   box-sizing: border-box;
 
@@ -403,7 +412,7 @@ span.site-subtitle{
 }
 
 .page-headline{
-  font-size: 2em;
+  font-size: 1.65em;
   font-weight: 300;
 }
 .node-heading {
@@ -494,14 +503,14 @@ color:#0095da;
   margin: auto;
   display: none;
   margin-bottom: 40px;
-  background-color: #009BE3;
-  border: 1.5px solid #009BE3;
+  background-color: #004769;
+  border: 1.5px solid #004769;
   color: white;
 }
 .view-website-btn:hover{
-  border: 1.5px solid #009BE3!important;
+  border: 1.5px solid #004769!important;
   background-color: #fff;
-  color: #009BE3!important;
+  color: #004769!important;
 }
 /* Case Study Button */
 .case-study-btn{

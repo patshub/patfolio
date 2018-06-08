@@ -18,8 +18,7 @@
             <div class="col">
               <?php if ( has_post_thumbnail() ) : ?>
                   <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-                    <div class="project-thumbnail" style="background-image:url('<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>');">
-                    </div>
+                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>" />
                   </a>
               <?php endif; ?>
               <div class="project-info">

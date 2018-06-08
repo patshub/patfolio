@@ -75,7 +75,7 @@
         <p>My job was to use the custom template design as a skeleton for designing Laguna Wood’s Civic Support Fund website. The idea is for me to re-skin the custom template design to fit our clients’ branding.</p>
       </div>
 
-      <img style="padding:30px; box-sizing:border-box; border:3px solid #f7f7f7;" src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/brand.png" />
+      <img style="padding:30px; box-sizing:border-box;" src="<?php bloginfo('template_url'); ?>/assets/images/projects/lagunawoods/brand.png" />
       <div class="centerize">
         <p>Our client wanted a fresh and simple website that stays true to their existing brand, with rich imagery and elegant layouts similar to the custom design we’ve provided.</p>
       </div>
