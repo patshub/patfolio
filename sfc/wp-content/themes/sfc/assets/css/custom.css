@@ -1181,6 +1181,9 @@ footer .bibleVerse a{
   white-space: normal;
   font-weight: 400;
 }
+#node #page-header .subtitle{
+  margin-bottom: -10px;
+}
 #node #page-header .subtitle,
 #node #page-header .subtitle a{
   color: rgba(255,255,255,.6);
