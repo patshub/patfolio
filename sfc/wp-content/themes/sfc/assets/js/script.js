@@ -30,12 +30,17 @@ $( document ).ready(function() {
   // Prayer Items Dropdown
   $('.prayer-item').click(function(){
     if($(this).hasClass('open')){
-      $(this).animate({'height':'80px'});
+      $(this).animate({'height':'80px'},100);
       $(this).children('.white-fade').fadeToggle();
       $(this).removeClass('open');
     }
     else{
-      $(this).animate({'height': $(this).children('p').css('height')});
+      //Get AUTO height
+      var curHeight = $(this).height();
+      $(this).css('height', 'auto');
+      var autoHeight = $(this).height();
+      $(this).height(curHeight).animate({height: autoHeight}, 100);
+
       $(this).children('.white-fade').fadeToggle();
       $(this).addClass('open');
     }

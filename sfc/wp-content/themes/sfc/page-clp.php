@@ -2,12 +2,13 @@
 <?php include 'header-special.php'; ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <style>#page-header.special{background-position: 100% 10%;}</style>
-<section class="bg blue-img">
+<section class="bg white">
   <div class="container">
     <div class="mid-col">
       <div class="headline">
-        <img src="<?php bloginfo('template_url'); ?>/assets/images/logo-white-cross.svg" class="logo"/>
+        <img src="<?php bloginfo('template_url'); ?>/assets/images/logo-lightblue-cross.svg" class="logo"/>
         <h2>What is CLP?</h2>
+        <div class="liner-small"></div>
         <p>The Christian Life Program (CLP) is an integrated program that lead participants into a renewed understanding of God’s call to them as Christians. </p>
         <a href="#register-clp" class="btn hover-white">Register</a>
       </div>
@@ -51,6 +52,7 @@
   <div class="container">
     <div class="col-6">
       <h2 class="no-margin">What to Expect</h2>
+      <div class="liner-small side"></div>
       <p>The CLP starts with an orientation session, then goes into 3 modules of four talk sessions each.</p>
     </div>
 
@@ -191,17 +193,19 @@
   </div>
 </div>
 
-<section id="register-clp" class="bg blue-img dark">
+<section id="register-clp" class="bg default">
   <div class="container">
     <div class="mid-col">
-      <h2><strong>Register</strong></h2>
+      <h2><strong>Registration</strong></h2>
+      <div class="liner-small white"></div>
       <p>The Christian Life Program (CLP) is an integrated program that lead participants into a renewed understanding of God’s call to them as Christians. </p>
       <?php echo do_shortcode('[contact-form-7 id="61" title="CLP Entries"]'); ?>
     </div>
   </div>
+  <div class="dimmer"></div>
 </section>
 
-<section class="faq-section bg grey">
+<section class="faq-section bg white">
   <div class="container">
     <h2 class="section-title">Frequently-Asked Questions</h2>
     <div class="col-6">

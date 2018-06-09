@@ -1,12 +1,12 @@
-<svg id="Group_554" data-name="Group 554" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.775 30.774">
+<svg id="icon-instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.775 30.774">
   <defs>
     <style>
       .cls-1 {
-        fill: #fff;
+        fill: #21606a;
       }
 
       .cls-2 {
-        fill: #0095da;
+        fill: #fff;
         font-size: 12px;
         font-family: FontAwesome5BrandsRegular, "Font Awesome 5 Brands";
       }

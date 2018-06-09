@@ -11,8 +11,6 @@
       </div>
       <div class="col-3">
       </div>
-      <!-- <div class="col-1">
-      </div> -->
     </div>
     <div class="dimmer"></div>
   </section>
@@ -25,6 +23,7 @@
             <a href="/sfc/about-us"><div class="img two"></div></a>
             <div class="info">
               <h3>About SFC</h3>
+              <div class="liner-small"></div>
               <p>It is faith in action! Kids, youth, adults, and seniors join together to walk for the poor and rally the public to support the cause.</p>
               <a href="/sfc/about-us" class="btn blue-border">Learn More</a>
             </div>
@@ -35,6 +34,7 @@
             <a href="/sfc/clp"><div class="img three"></div></a>
             <div class="info">
               <h3>How to Join</h3>
+              <div class="liner-small"></div>
               <p>It is faith in action! Kids, youth, adults, and seniors join together to walk for the poor and rally the public to support the cause.</p>
               <a href="/sfc/clp" class="btn blue-border">Learn More</a>
             </div>
@@ -45,6 +45,7 @@
             <a href="/sfc/"><div class="img four"></div></a>
             <div class="info">
               <h3>What to Expect</h3>
+              <div class="liner-small"></div>
               <p>It is faith in action! Kids, youth, adults, and seniors join together to walk for the poor and rally the public to support the cause.</p>
               <a href="/sfc/" class="btn blue-border">Learn More</a>
             </div>
@@ -60,49 +61,49 @@
         <h2 class=" ">
           <span class="subtitle">WHAT WE DO</span>
           Deepen Your Relationship With God</h2>
+          <div class="liner-small white"></div>
           <p>To this end, CFC SFC has on-going formation programs, household meetings, recollections, retreats, teachings, forums, and other activities designed to deepen your relationship with the Lord and with others in the community.</p>
       </div>
       <div class="columns col-max">
-        <div class="col-6">
+        <div class="col-3">
           <div class="col">
             <div class="img" style="background-image:url('<?php bloginfo('template_url'); ?>/assets/images/repentance.jpg');"></div>
             <div class="info">
-              <h4>Households</h4>
+              <h3>Households</h3>
               <p>Become part of an environment for the support of the Christian life of singles and to provide a means of encouraging and hastening growth in the Christian life.</p>
             </div>
-            <br/><br/>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-3">
           <div class="col">
             <div class="img" style="background-image:url('<?php bloginfo('template_url'); ?>/assets/images/teaching.jpg');"></div>
             <div class="info">
-              <h4>Teaching Nights</h4>
+              <h3>Teaching Nights</h3>
               <p>Be nourished by God's Word as you learn more about His undying love for us and ways we can continue to grow in our faith in Him.</p>
             </div>
-            <br/><br/>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-3">
           <div class="col">
             <div class="img"></div>
             <div class="info">
-              <h4>Retreats</h4>
+              <h3>Retreats</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus augue, auctor sed eros vel, sagittis. Consectetur adipiscing elit.</p>
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-3">
           <div class="col">
             <div class="img" style="background-image:url('<?php bloginfo('template_url'); ?>/assets/images/conference.jpg');"></div>
             <div class="info">
-              <h4>Conferences</h4>
+              <h3>Conferences</h3>
               <p>Join brothers and sisters from all over USA and Canada to learn more about your faith through worship, celebrate the Sacraments, and be part of a growing fellowship!</p>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="dimmer light"></div>
   </section>
   <section id="word-message" style="display:none">
     <div class="container">
@@ -124,14 +125,16 @@
     <div class="container">
       <div class="mid-col">
         <div class="headline">
-          <img src="<?php bloginfo('template_url'); ?>/assets/images/logo-black-cross.svg"/>
+          <img src="<?php bloginfo('template_url'); ?>/assets/images/logo-white-cross.svg"/>
           <h2 class=" align-center"><span class="subtitle">JOIN US</span>Christian Life Program</h2>
+          <div class="liner-small white"></div>
           <p>The Christian Life Program (CLP), is an integrated program that lead participants into a renewed understanding of God’s call to them as Christians.</p>
         </div>
 
-        <a href="/sfc/clp" class="btn">Learn More</a>
+        <a href="/sfc/clp" class="btn hover-white">Learn More</a>
       </div>
     </div>
+    <div class="dimmer"></div>
   </section>
 
   <section id="ancop-home">
@@ -142,6 +145,7 @@
         <div class="col">
           <div class="headline">
             <h2 class=" "><span class="subtitle">HELP THE POOR</span>Answering the Cry of the Poor</h2>
+            <div class="liner-small"></div>
             <p>ANCOP is an acronym which stands for Answering the Cry of the Poor. ANCOP USA shares Christ’s love among the poor, uplifts their lives, restores their dignity as children of God, and transforms communities.</p>
             <a href="/sfc/ancop" class="btn">Learn More</a>
           </div>
@@ -150,19 +154,21 @@
     </div>
   </section>
 
-  <section id="prayers-home" class="bg blue-img">
+  <section id="prayers-home" class="bg lightblue">
     <div class="container">
       <div class="mid-col">
         <div class="headline">
           <h2 class=" "><span class="subtitle">OFFER YOUR PRAYERS</span>Prayer Intentions</h2>
+          <div class="liner-small"></div>
           <p>The Christian Life Program (CLP) is an integrated program that lead participants into a renewed understanding of God’s call to them as Christians. </p>
-          <a href="/sfc/prayers" class="btn white hover-white">Make a Prayer Intention</a>
+          <a href="/sfc/prayers" class="btn">Make a Prayer Intention</a>
         </div>
       </div>
     </div>
+    <!-- <div class="dimmer light"></div> -->
   </section>
 
-  <section id="articles-home" class="bg grey">
+  <section id="articles-home" class="bg white">
     <div class="container">
       <h2 class="section-title"><strong>Latest Articles</strong></h2>
       <?php

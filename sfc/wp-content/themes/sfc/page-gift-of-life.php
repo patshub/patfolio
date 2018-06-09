@@ -12,6 +12,7 @@
     </div>
     <div class="col-6">
       <h2>What is the Gift of Life?</h2>
+      <div class="liner-small side"></div>
       <p>At the heart of the evangelization mission of the church is the Gospel of Life. We proclaim that all life is sacred, as disciples of Jesus Christ; it is our duty to respect, protect, love and serve every human life, from conception to natural death.</p>
 
       <h3>Initiatives</h3>

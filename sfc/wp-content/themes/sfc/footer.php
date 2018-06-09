@@ -2,7 +2,7 @@
     <div class="container">
         <div class="footer-col-logo">
           <div class="col">
-            <a href="/sfc"><img class="logo" src="<?php bloginfo('template_url'); ?>/assets/images/logo-footer.svg"/></a>
+            <a href="/sfc"><img class="logo" src="<?php bloginfo('template_url'); ?>/assets/images/logo.png"/></a>
 
           </div>
         </div>

@@ -12,6 +12,7 @@
       </div>
       <div class="col-6">
         <h2>What is ANCOP?</h2>
+        <div class="liner-small side white"></div>
         <p>ANCOP, an acronym which stands for Answering the Cry of the Poor is a Christian, Catholic non-profit organization that dedicates itself to proclaiming CHRIST, and the Christian faith, by uplifting the plight of the poor.</p>
       </div>
       <div class="col-2">
@@ -24,12 +25,14 @@
       <div class="col-6">
         <div class="col">
           <h2>Mission</h2>
+          <div class="liner-small side"></div>
           <p>Mission to be a catalyst for human liberation, uplifting the material and spiritual welfare of the poor by empowering families and the youth through values formation and skills training for a better quality of life, and building communities of stewards for sustained development and social transformation through networking, business and cooperative development.</p>
         </div>
       </div>
       <div class="col-6">
         <div class="col">
           <h2>Vision</h2>
+          <div class="liner-small side"></div>
           <p>In unity with the Catholic Church, consistent with the core values of Couples for Christ of which it is a ministry, and recognizing Christ as the center of its work, ANCOP USA will seek to renew and uplift the lives of the poor  and the marginalized, to restore their dignity as human beings and children of God, and to influence the spiritual transformation of the beneficiaries and their benefactors.</p>
         </div>
       </div>
@@ -73,14 +76,16 @@
     </div>
   </section>
 
-  <section class="bg ancop2">
+  <section class="bg default">
     <div class="container">
       <div class="mid-col">
         <h2>Visit their Website</h2>
+        <div class="liner-small white"></div>
         <p>For more information about ANCOP, visit their website.</p>
         <a href="http://cfcancop.org/" target="_blank" class="btn white hover-white">cfcancop.org</a>
       </div>
     </div>
+    <div class="dimmer light"></div>
   </section>
 <?php endwhile; else: ?>
 <p>Sorry, no posts matched your criteria.</p>

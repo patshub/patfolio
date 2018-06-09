@@ -38,7 +38,7 @@ h3{font-size: 1.5em; margin: 2.5% 0 0.5% 0; line-height: 130%; }
 h4{font-size: 1.25em;}
 h5{font-size: 1em;}
 p{
-  font-size: 1.1em;
+  font-size: 1em;
   margin: 0% 0 .25% 0;
   font-weight: 400;
   opacity: .8;
@@ -50,7 +50,7 @@ a,
 a:active,
 a:visited{
   text-decoration: none;
-  color: #0095DA;
+  color: #21606A;
 }
 strong,b{ font-weight: 600; }
 em{ font-style: italic; }
@@ -68,7 +68,7 @@ img{
 
 section{
   width: 100%;
-  margin: auto auto 60px auto;
+  margin: auto auto 52px auto;
   display: block;
   clear: both;
 
@@ -215,17 +215,17 @@ ul.breadcrumbs li:last-child{
     cursor: pointer;
     width: auto;
     white-space: nowrap;
-    padding: 5px 18px;
+    padding: 3px 15px 4.5px 15px;
     text-decoration: none;
-    background: #0095DA;
-    border: 1.5px solid #0095DA;
+    background: #21606A;
+    border: 1.5px solid #21606A;
     color: #fff;
     display: table;
     transition-duration: 0.25s;
     vertical-align: middle;
     font-weight: 400;
 
-    border-radius: 1000px;
+    border-radius: 5px;
 
     font-size: 1em;
     font-weight: 500;
@@ -238,22 +238,22 @@ a.btn.inline{
 a.btn.secondary{
   border-radius: 0;
   background-color: transparent;
-  color: #0095da;
+  color: #21606A;
 
   padding: 0 0 1px 0;
 
   border:none;
-  border-bottom: 1.5px solid #0095da;
+  border-bottom: 1.5px solid #21606A;
 }
 a.btn.secondary:hover{
   border:none!important;
-  border-bottom: 1.5px solid #0095da!important;
+  border-bottom: 1.5px solid #21606A!important;
 }
 a.btn:hover{
   transition-duration: .2s;
-  border: 1.5px solid #0095DA;
+  border: 1.5px solid #21606A;
   background-color: transparent;
-  color: #0095DA!important;
+  color: #21606A!important;
 }
 a.btn:active,a.btn:visited{
   text-decoration: none;
@@ -261,17 +261,17 @@ a.btn:active,a.btn:visited{
 }
 a.btn.white:active,a.btn.white:visited{
   text-decoration: none;
-  color: #0095DA;
+  color: #21606A;
 }
 .btn.white{
   background: #fff;
   border: 1.5px solid #fff;
-  color: #0095DA;
+  color: #21606A;
 }
 .btn.blue-border{
   background: #fff;
-  border: 1.5px solid #0095da;
-  color: #0095da!important;
+  border: 1.5px solid #21606A;
+  color: #21606A!important;
 }
 .btn.mid{
   margin: auto;
@@ -281,12 +281,13 @@ a.btn.white:active,a.btn.white:visited{
   content: "\f0da";
   margin-left: 7px;
   font-size: 1.15em;
+  vertical-align: text-bottom;
 }
 
 
 a.btn.hover-blue:hover{
-  border:1.5px solid #0095da;
-  color: #0095da!important;
+  border:1.5px solid #21606A;
+  color: #21606A!important;
 }
 a.btn.hover-white:hover{
   border:1.5px solid #fff;

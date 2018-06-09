@@ -77,7 +77,7 @@ h3.section-title{
 .bg,
 .standalone-img{
   background-image: url('../images/bg-main.png');
-  padding: 60px 0;
+  padding: 52px 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -89,6 +89,9 @@ h3.section-title{
 
   overflow: hidden;
 }
+.bg.default{
+  background-image: url('../images/bg-default-bw.png');
+}
 .bg.white{
   background-image: none;
   background-color: #fff;
@@ -97,9 +100,14 @@ h3.section-title{
 .bg.grey{
   background-image: none;
   background-color: #F7F7F7;
-  background-image: none;
   color: #000;
 }
+.bg.lightblue{
+  background-image: none;
+  background-color: #F2FDFF;
+  color: #000;
+}
+
 .bg.blue-img{
   background-image: url('../images/bg-blue-img.png');
 }
@@ -160,7 +168,7 @@ ul.menu li{
   border-bottom: 1px solid #fff;
   transition-duration: 0.2s;
 }ul.menu li:hover a{
-  color: #0095da;
+  color: #21606A;
   transition-duration: 0.2s;
 }
 ul.menu li:first-child{
@@ -274,9 +282,6 @@ span.label-southbay{
   position: relative;
 
 }
-#home-banner .dimmer{
-  opacity: .7;
-}
 
 #home-banner h3{
   text-align: center;
@@ -347,16 +352,29 @@ span.label-southbay{
 
 /* Featured Triplets */
 #featured-triplets{
-  padding:60px 0;
+  padding:52px 0;
   margin: 0;
+}
+#featured-triplets h3,
+#featured-triplets p{
+  text-align: center;
+}
+#featured-triplets p{
+  margin:2% 0 4% 0;
+}
+#featured-triplets a.btn{
+  margin:auto;
+}
+#featured-triplets .liner-small{
+  margin:4% auto;
 }
 /* Featured Contents */
 #featured-contents{
-  background-image: url('../images/bg-darkblue-img.png');
+  background-image: url('../images/bg-featured-content.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 60px 0;
+  padding: 52px 0;
   color: #fff;
   margin:0;
 }
@@ -368,8 +386,15 @@ span.label-southbay{
   margin: auto auto 30px auto;
 }
 #featured-contents .headline p{
-  opacity: .85;
+  opacity: 1;
   margin:.75em 0;
+}
+#featured-contents .columns h3{
+  font-weight: 400;
+}
+#featured-contents .columns p{
+  opacity: .6;
+  margin-top: 2% 0 0 0;
 }
 #featured-contents a.btn{
   margin: auto;
@@ -377,19 +402,23 @@ span.label-southbay{
 #featured-contents .subtitle{
   color: rgba(255,255,255,.35);
 }
+#featured-contents .img{
+  border-bottom: 4px solid white;
+}
 /* Home CLP */
 #clp-home{
-  background-image: url('../images/bg-clp.png');
+  background-image: url('../images/bg-clp-greyscale.png');
   background-size: cover;
   background-position: 50% 0%;
   background-repeat: no-repeat;
-  padding: 200px 0 60px 0;
+  padding: 52px 0;
   margin-bottom: 0;
   color: #fff;
   text-align: center;
 }
 #clp-home img{
   width: 100px;
+  margin-bottom: 10px;
 }
 #clp-home a.btn{
   margin: auto;
@@ -409,8 +438,8 @@ span.label-southbay{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 45px 0;
-  margin:45px 0;
+  padding: 82px 0;
+  margin:0;
   text-align: center;
 
 }
@@ -422,7 +451,6 @@ span.label-southbay{
   margin-top: 20px;
 }
 #ancop-home .col-6 .col{
-  padding-top: 35px;
 }
 #ancop-home p{
   margin:.75em 0;
@@ -433,10 +461,10 @@ span.label-southbay{
   /* background-image: url('../images/bg-prayer.jpeg'); */
 }
 #prayers-home .subtitle{
-  color: rgba(255,255,255,0.35);
+  /* color: rgba(255,255,255,0.35); */
 }
 #prayers-home  a.btn{
-  color: #000;
+  /* color: #000; */
 }
 /* Articles */
 .post-date:before{
@@ -466,7 +494,7 @@ span.label-southbay{
 }
 .article-info a.btn{
   margin:10px 0 0 0;
-  color: #0095da!important;
+  color: #21606A!important;
 }
 
 .articles a h4{
@@ -481,7 +509,7 @@ span.label-southbay{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 60px;
+  padding: 52px;
   box-sizing: border-box;
   text-align: center;
 
@@ -548,7 +576,8 @@ span.label-southbay{
 }
 #page-header.special .subtitle{
   /* color: rgba(255,255,255,.65); */
-  color: #0095da;
+  font-weight: 200;
+  color: #4BC4D8;
   margin-bottom: -25px;
   margin-top: 15px;
   font-family: 'Dancing Script';
@@ -565,8 +594,8 @@ span.label-southbay{
   background-image: url('../images/bg-motherandchild.png')!important;
 }
 .dimmer{
-  background-color: #000;
-  opacity: .7;
+  background-color: #0A1E21;
+  opacity: .9;
   width: 100%;
   height: 10000px;
 
@@ -574,6 +603,9 @@ span.label-southbay{
   top: 0;
   left: 0;
   z-index: 0;
+}
+.dimmer.light{
+  background-color: #21606A;
 }
 
 .liner{
@@ -592,6 +624,20 @@ span.label-southbay{
 }
 .liner.bottom{
   top:25px;
+}
+
+.liner-small{
+  background-color: #21606A;
+  height: 3px;
+  width: 25px;
+  display: block;
+  margin: 18px auto;
+}
+.liner-small.side{
+  margin: 18px 0;
+}
+.liner-small.white{
+  background-color: #fff;
 }
 
 /* About Page */
@@ -639,10 +685,6 @@ span.label-southbay{
   margin-right: 5px;
 }
 
-
-#clp-goal h4{
-  font-weight: 400;
-}
 
 .module{
   padding: 40px 0 40px 0;
@@ -754,7 +796,7 @@ span.label-southbay{
 }
 .filter input[type="submit"]{
   background-color: #fff;
-  color: #0095da;
+  color: #21606A;
 }
 .filter input[type="text"]{
   width: 300px;
@@ -765,13 +807,14 @@ span.label-southbay{
   margin:0 0 30px 0;
   position: relative;
   display: block;
-}
-.prayer-item{
   height: 80px;
   overflow: hidden;
-  display: block;
+  cursor: pointer;
 
   transition-duration: .2s;
+}
+.prayer-item{
+
 }
 .prayer-item h3:after{
   font-family: FontAwesome;
@@ -833,15 +876,15 @@ span.label-southbay{
 
 #prayer-form input[type="submit"]{
   color:#fff;
-  background-color: #0095da!important;
+  background-color: #21606A!important;
 }
 
 /* Footer */
 footer{
-  background-color: #0095da;
-  padding: 60px 0;
+  background-color: #f7f7f7;
+  padding: 52px 0;
   position: relative;
-  color: #fff;
+  color: #000;
 }
 footer .logo{
   width: 300px;
@@ -871,7 +914,7 @@ footer p,
 footer li a,
 .bibleText{
   opacity: .75!important;
-  color: #fff!important;
+  color: #000!important;
   transition-duration: .2s;
   font-weight: 400;
 }
@@ -890,7 +933,7 @@ footer ul.menu li{
   margin-left: 0;
   border-bottom:none;
 }footer ul.menu li a{
-  color: #fff;
+  color: #000;
 }
 
 footer .social-media img{
@@ -900,14 +943,14 @@ footer .social-media img{
 }
 
 footer .bibleVerse a{
-  color: #fff;
-  font-weight: 500;
+  color: #21606A;
+  font-weight: 700;
   font-size: 1.15em;
 }
 
 #bottom-footer{
   padding:5px 0;
-  background-color: #006DA0;
+  background-color: #21606A;
 }
 #bottom-footer p{
   color: #fff;
@@ -931,7 +974,7 @@ footer .bibleVerse a{
   margin:0;
 }
 #register-clp input[type="submit"]{
-  color:#0095da;
+  color:#21606A;
 }
 #register-clp form br{
   display: none;
@@ -1011,7 +1054,7 @@ footer .bibleVerse a{
   text-transform: capitalize;
   font-size: 2.75em;
   font-weight: 900;
-  /* color: #0095da; */
+  color: #21606A;
   margin:0 0 30px 0;
   display: block;
   text-align: center;
@@ -1027,7 +1070,7 @@ footer .bibleVerse a{
   font-weight: 400;
 }
 .other-media-title:hover{
-  color: #0095da;
+  color: #21606A;
   opacity: 1;
   transition-duration: .2s;
 }
@@ -1201,7 +1244,7 @@ footer .bibleVerse a{
   font-size: 16px;
 }
 #node #page-header li.subtitle:last-child{
-  color:#0095da;
+  color:#21606A;
 }
 #node #page-header .post-date{
   color: #fff;
@@ -1246,11 +1289,6 @@ footer .bibleVerse a{
 #node.music #page-header{
   background-image: url('../images/bg-music.png');
 }
-#node.music #page-header .dimmer{
-  opacity: .7;
-}
-
-
 /* Gallery Lightbox */
 .lb-outerContainer{
   background-color: transparent!important;
@@ -1265,9 +1303,6 @@ footer .bibleVerse a{
 #node.photos #page-header{
   height: 500px;
   margin-bottom: -320px;
-}
-#node.photos #page-header .dimmer{
-  opacity: .8;
 }
 #node.photos #page-header .columns{
   position: absolute;
@@ -1288,23 +1323,17 @@ footer .bibleVerse a{
 #page-header.archive-articles{
   background-image: url('../images/bg-news.png')!important;
 }
-#page-header.archive-articles .dimmer{
-  opacity: .7;
-}
 
 /* Article Node Page */
 #node.articles #page-header{
   background-image: url('../images/bg-news.png');
   background-position: 0 45%;
 }
-#node.articles #page-header .dimmer{
-  opacity: .7;
-}
 
 
 /* Word Art */
 #word-message{
-  padding: 60px 0;
+  padding: 52px 0;
   margin: 0;
 }
 #word-message .msg{
