@@ -154,7 +154,7 @@
     </div>
   </section>
 
-  <section id="prayers-home" class="bg lightblue">
+  <section id="prayers-home" class="bg grey">
     <div class="container">
       <div class="mid-col">
         <div class="headline">

@@ -914,7 +914,7 @@ footer p,
 footer li a,
 .bibleText{
   opacity: .75!important;
-  color: #000!important;
+  color: #21606A!important;
   transition-duration: .2s;
   font-weight: 400;
 }
@@ -942,6 +942,13 @@ footer .social-media img{
   margin-right: 3px;
 }
 
+footer .bibleVerse{
+  margin-top: 5px;
+}
+footer .bibleText{
+  color: #000!important;
+  opacity: .6!important;
+}
 footer .bibleVerse a{
   color: #21606A;
   font-weight: 700;
