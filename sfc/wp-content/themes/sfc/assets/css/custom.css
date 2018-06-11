@@ -595,7 +595,7 @@ span.label-southbay{
 }
 .dimmer{
   background-color: #0A1E21;
-  opacity: .9;
+  opacity: .8;
   width: 100%;
   height: 10000px;
 
@@ -606,6 +606,7 @@ span.label-southbay{
 }
 .dimmer.light{
   background-color: #21606A;
+  opacity: .9;
 }
 
 .liner{
