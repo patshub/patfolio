@@ -25,7 +25,7 @@
         <?php } ?>
 
         <div class="page_name_container">
-          <span class="page_name">Homepage</span>
+          <span class="page_name">Home Page</span>
         </div>
       </div>
       <div class="clear"></div>

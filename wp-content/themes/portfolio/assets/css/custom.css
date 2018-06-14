@@ -312,6 +312,7 @@ span.site-subtitle{
   width: 550px;
   max-width: 100%;
   margin: 25px auto;
+  display: block;
 }
 #project .lefterize{
   text-align: left;
