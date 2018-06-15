@@ -9,9 +9,7 @@
         <div class="project-type"><?php the_excerpt(); ?></div>
       <?php } ?>
 
-      <div style="clear:both; height:60px;">
-        <a href="#website-view" class="btn view-website-btn">Final Design</a>
-      </div>
+        <!-- <a href="#website-view" class="btn view-website-btn">Final Design</a> -->
 
       <div class="clear"></div>
 
@@ -62,7 +60,7 @@
                         <li><a href="#section-important-components">Important Components</a></li>
                       </ul>
                     </li>
-                    <li><a href="#website-view">Final Design</a></li>
+                    <!-- <li><a href="#website-view">Final Design</a></li> -->
                   </ul>
                 </div>
               </div>
@@ -286,7 +284,6 @@
       </style>
 
       <div id="directory-system-features">
-        <div class="col-1"><div class="col"></div></div>
         <div class="col-5">
           <div class="col">
             <ul>
@@ -416,7 +413,7 @@
       <img class="none" style="display:block; margin:auto auto 45px auto;" src="<?php bloginfo('template_url'); ?>/assets/images/projects/soe/hi-fi.png" />
 
       <div id="section-important-components" class="centerize">
-        <h3>Important Components that <strong style="margin:8px 0 20px 0;display:block; clear:both;font-size:1.75em;">Made All The Difference</strong></h3>
+        <h3>Important Components that <strong style="font-weight:600; margin:8px 0 20px 0;display:block; clear:both;font-size:1.75em;">Made All The Difference</strong></h3>
       </div>
       <div class="solution">
         <div class="col-6">
@@ -466,7 +463,7 @@
         </div>
       </div>
 
-      <div id="website-view">
+      <div id="website-view" style="display:none">
         <hr/>
         <div class="page-section centerize">
           <h2>Final Design</h2>

@@ -53,6 +53,7 @@
             $('.page_name').text($('.bx-pager-link.active .pager-item').attr('data-name'));
           }
 
+
           $(document).ready(function(){
             $('.project-screens').bxSlider({
               infiniteLoop: false,
@@ -86,7 +87,7 @@
               replace_page_name();
             });
 
-
+            replace_page_name();
 
           });
 

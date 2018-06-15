@@ -9,10 +9,8 @@
         <div class="project-type"><?php the_excerpt(); ?></div>
       <?php } ?>
 
-      <div style="clear:both; height:60px;">
         <a href="#website-view" class="btn view-website-btn">Final Design</a>
-      </div>
-
+        <div class="clear"></div>
       <div>
         <div class="col-6">
           <div class="col">
