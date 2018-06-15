@@ -9,7 +9,7 @@
         <div class="project-type"><?php the_excerpt(); ?></div>
       <?php } ?>
 
-      <div style="clear:both; height:60px;">
+      <div>
         <a target="_blank" href="http://pmartindesigns.com/sfc" class="btn view-website-btn">View Website</a>
       </div>
 

@@ -220,11 +220,11 @@ header:hover{
   transition-duration: 0.25s;
 }
 header h1{
-  font-size: 4em;
+  font-size: 3.5em;
   margin-bottom: -10px;
 }
 header a{
-  font-weight: 400;
+  font-weight: 500;
   color: #000!important;
 }
 p.contact-info{
@@ -285,7 +285,7 @@ span.site-subtitle{
   transition-duration: 0.25s;
 }
 .project-item{
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   text-align: center;
 }
 /* .project-item .col{
@@ -456,7 +456,7 @@ span.site-subtitle{
 .node-heading h2{
   margin-top: 0;
   font-size: 1.75em;
-  font-weight: 400;
+  font-weight: 600;
 }
 a.btn.back{
   position: absolute;
@@ -722,5 +722,7 @@ a img.aligncenter {
 .home-section-title{
   font-size: 1.7em;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin: 50px 0 25px 0;
+}.home-section-title:first-child{
+  margin-top: 0px;
 }
