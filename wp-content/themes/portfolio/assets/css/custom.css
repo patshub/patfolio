@@ -221,20 +221,25 @@ header:hover{
 }
 header h1{
   font-size: 3.5em;
-  margin-bottom: -10px;
+  margin-bottom: -7px;
+  font-weight: 600;
+
+  position: relative;
+  left: -3px;
 }
 header a{
-  font-weight: 500;
   color: #000!important;
 }
 p.contact-info{
-  opacity: .75;
   margin-bottom: 0;
+}
+p.contact-info a{
+  font-weight: 600;
 }
 span.site-subtitle{
   display: block;
-  font-size: 2em;
-  font-weight: 500;
+  font-size: 1.25em;
+  font-weight: 100;
   margin: 0 0 15px 0;
 }
 .dot{
@@ -463,9 +468,12 @@ a.btn.back{
   left: 0;
   top: 0;
 
-  background-color: #f7f7f7;
+  background-color: rgba(0,0,0,0.04);
   color: #000;
   border: none;
+  font-weight: 600;
+
+  padding: 10px 12px;
 }
 a.btn.back:after{
   display: none;
@@ -533,9 +541,9 @@ color:#0095da;
   /* margin: auto; */
   display: none;
   margin-bottom: 40px;
-  background-color: #004769;
-  border: 1.5px solid #004769;
-  color: white;
+  background-color: #fff;
+  border: 1.5px solid #000;
+  color: #000;
 
   float: right;
 }
@@ -720,8 +728,8 @@ a img.aligncenter {
 
 
 .home-section-title{
-  font-size: 1.7em;
-  font-weight: 600;
+  font-size: 1.65em;
+  font-weight: 500;
   margin: 50px 0 25px 0;
 }.home-section-title:first-child{
   margin-top: 0px;

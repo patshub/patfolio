@@ -19,7 +19,7 @@ br{
 /************** TYPOGRAPHY **************/
 h1,h2,h3,h4{
   line-height: 130%;
-  font-family: 'Poppins', 'Open Sans';
+  /* font-family: 'Nobile', 'Open Sans'; */
 }
 h1{
   font-size: 2em;
@@ -46,7 +46,7 @@ a:visited{
 a.btn:active,
 a.btn::selection,
 a.btn:visited{
-  color: white;
+  color: inherit;
 }
 strong,b{ font-weight: 500; }
 em{ font-style: italic; }

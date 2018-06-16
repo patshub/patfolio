@@ -24,9 +24,9 @@
           <a href="#" class="btn case-study-btn">Case Study</a>
         <?php } ?>
 
-        <div class="page_name_container">
+        <!-- <div class="page_name_container">
           <span class="page_name">Home Page</span>
-        </div>
+        </div> -->
       </div>
       <div class="clear"></div>
       <div class="main-content">
