@@ -290,7 +290,7 @@ span.site-subtitle{
   transition-duration: 0.25s;
 }
 .project-item{
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
   text-align: center;
 }
 /* .project-item .col{

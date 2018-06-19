@@ -31,6 +31,29 @@
       <div class="clear"></div>
       <div class="main-content">
 
+        <?php if(has_category('Featured')){ ?>
+          <?php if ( has_post_thumbnail() ) : ?>
+            <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+              <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'full'); ?>" />
+            </a>
+          <?php endif; ?>
+          <style>
+            .screen-item{
+              padding: 0;
+            }
+            .node-heading{
+              margin-bottom: 35px;
+            }
+
+            .bx-viewport{
+              box-shadow: 1px 1px 25px lightgrey;
+              margin-top: 40px;
+            }
+          </style>
+
+        <?php } ?>
+
+
         <div id="project-details">
           <?php $field_group = get_group('project_item');  ?>
           <div class="project-screens">
